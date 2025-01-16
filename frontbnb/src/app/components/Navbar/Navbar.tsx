@@ -30,7 +30,7 @@ const Navbar = () => {
                     
                 </div>
             </div>
-            Test1
+    
         </nav>
     )
 }
