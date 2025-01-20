@@ -1,0 +1,46 @@
+# Fichiers et dossiers Python
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+
+# Environnements virtuels
+venv/
+.env
+.env.dev
+*.env
+
+# Base de données SQLite
+db.sqlite3
+
+# Fichiers Django spécifiques
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Migrations compilées
+backendbnb/**/migrations/*.pyc
+backendbnb/**/migrations/*.py
+!backendbnb/**/migrations/__init__.py
+
+# Fichiers Docker
+Dockerfile*
+docker-compose.yml
+
+# Cache et dépendances
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Clés et certificats
+*.pem
+
+# Logs et fichiers temporaires
+*.log
+debug.log
+media/
+static/
+
+# Éviter d'ignorer certains fichiers importants
+!.gitignore
